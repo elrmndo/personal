@@ -13,7 +13,7 @@ export function Header({ size }: Props) {
           [styles['header--large']]: size === 'lg',
         })}
       >
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
+        Hi, it works!
       </h1>
     </>
   );
