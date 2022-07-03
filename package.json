@@ -1,0 +1,63 @@
+{
+  "name": "portfolio",
+  "version": "0.0.0",
+  "private": true,
+  "description": "This is my portfolio/personal website",
+  "author": "Enrique Rimando <elrmndo@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:stats": "cross-env ANALYZE=true npm run build",
+    "start": "next start",
+    "check:lint": "eslint --ext \".jsx,.js\" --ignore-path .gitignore .",
+    "check:types": "tsc --noEmit",
+    "check:format": "prettier --write \"*/**/*.{jsx,js}\"",
+    "test": "jest --watch",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "next": "12.2.0",
+    "postcss": "^8.4.14",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-query": "^3.39.1",
+    "tailwindcss": "^3.1.4"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^12.2.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^14.2.1",
+    "classnames": "^2.3.1",
+    "cross-env": "^7.0.3",
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-jest-dom": "^4.0.2",
+    "eslint-plugin-jest-formatting": "^3.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-testing-library": "^5.5.1",
+    "husky": "^8.0.1",
+    "jest": "^28.1.2",
+    "jest-environment-jsdom": "^28.1.2",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "sass": "^1.53.0"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "bash -c 'npm run check:types'",
+      "npm run check:lint",
+      "npm run check:format"
+    ],
+    "*.json": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
