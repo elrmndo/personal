@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col min-h-screen text-center">
+      <main className="flex flex-col min-h-screen text-center selection:text-white selection:bg-sky-300">
         <section className="flex-1 flex flex-col justify-center items-center bg-slate-50 px-4">
           <h1 className="text-4xl font-bold">Enrique Rimando.</h1>
           <p className="text-lg text-gray-500">
