@@ -13,7 +13,7 @@ export default function Home() {
         <section className="flex-1 flex flex-col justify-center items-center bg-slate-50 px-4">
           <h1 className="text-4xl font-bold">Enrique Rimando.</h1>
           <p className="text-lg text-gray-500">
-            Hello, kamusta? Enrique here. I am a Front End Developer with 5+
+            Hello, kamusta? Enrique here. I am a Full Stack Developer with 5+
             years of progressive experience
           </p>
 
