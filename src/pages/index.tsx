@@ -18,7 +18,7 @@ export default function Home() {
               className="text-cyan-500 text-bold underline"
               href="mailto:hi@elrmndo.dev"
             >
-              elrmndo@gmail.com
+              hi@elrmndo.dev
             </a>
           </p>
         </section>
