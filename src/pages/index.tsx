@@ -22,10 +22,6 @@ export default function Home() {
             </a>
           </p>
         </section>
-
-        <footer className="p-6 text-xs uppercase border-t border-slate-100">
-          <p>Made with ❤️ by Enrique</p>
-        </footer>
       </main>
     </>
   );
