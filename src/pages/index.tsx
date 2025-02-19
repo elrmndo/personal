@@ -15,7 +15,7 @@ export default function Home() {
             Hi, I&apos;m Enrique Rimando ✨
           </h1>
           <p className="text-lg text-gray-500">
-            Revamped site coming soon. For now you can contact me at
+            Revamped site coming soon. You can contact me at{' '}
             <a
               className="text-cyan-500 text-bold underline"
               href="mailto:hi@elrmndo.dev"
